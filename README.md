@@ -21,7 +21,7 @@ Weights of the finetuned models are available on Hugging Face, listed below:
 
 
 ### Model responses on open ended evaluation
-We used [Alpaca Eval](https://github.com/tatsu-lab/stanford_alpaca) with GPT-4  (pinned to GPT-4-0613) as a judge to test open ended response capabilities. We used 300 prompts from the LIMA dataset's test set [available in here](https://huggingface.co/datasets/aditijha/processed_lima/viewer/default/test), as well as [300 prompts from Instruct-v3 dataset's test set](). 
+We used [Alpaca Eval](https://github.com/tatsu-lab/stanford_alpaca) with GPT-4  (pinned to GPT-4-0613) as a judge to test open ended response capabilities. We used [300 prompts from the LIMA dataset's test set](model_responses_evaluated_by_gpt4/test_prompts/lima_test_prompts.txt), as well as [300 prompts from Instruct-v3 dataset's test set](model_responses_evaluated_by_gpt4/test_prompts/instructv3_test_prompts.txt). 
 
-The responses of the finetuned models along with GPT-4's preference are stored in [model_responses_evaluated_by_gpt4](model_responses_evaluated_by_gpt4).
+The responses of the finetuned models along with GPT-4's preference are available in [model_responses_evaluated_by_gpt4](model_responses_evaluated_by_gpt4).
 
