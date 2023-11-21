@@ -13,7 +13,7 @@ The datasets that we used for finetuning are all available on Hugging Face, list
 5. MPT-7B-Instruct-Subset + LIMA was finetuned on 6,000 samples [available here](https://huggingface.co/datasets/aditijha/instruct_v1_5k_and_lima), and MPT-30B-Instruct-Subset + LIMA was finetuned on 2,000 samples [available here](https://huggingface.co/datasets/aditijha/instruct_control_and_lima).
 
 ### Finetuning yamls
-The yamls used to finetune these are available in [yamls_for_finetuning](main/yamls_for_finetuning)
+The yamls used to finetune these are available in [yamls_for_finetuning](yamls_for_finetuning)
 
 ### Model weights
 Weights of the finetuned models are available on Hugging Face, listed below:
@@ -23,5 +23,5 @@ Weights of the finetuned models are available on Hugging Face, listed below:
 ### Model responses on open ended evaluation
 We used [Alpaca Eval](https://github.com/tatsu-lab/stanford_alpaca) with GPT-4  (pinned to GPT-4-0613) as a judge to test open ended response capabilities. We used 300 prompts from the LIMA dataset's test set [available in here](https://huggingface.co/datasets/aditijha/processed_lima/viewer/default/test), as well as [300 prompts from Instruct-v3 dataset's test set](). 
 
-The responses of the finetuned models along with GPT-4's preference are stored in [model_responses_evaluated_by_gpt4](main/model_responses_evaluated_by_gpt4).
+The responses of the finetuned models along with GPT-4's preference are stored in [model_responses_evaluated_by_gpt4](model_responses_evaluated_by_gpt4).
 
