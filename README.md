@@ -1,1 +1,1 @@
-# LIMIT-Less-is-more-for-instruction-tuning
+# LIMIT: Less Is More for Instruction Tuning across evaluation paradigms
