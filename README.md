@@ -1,6 +1,6 @@
 # LIMIT: Less Is More for Instruction Tuning across evaluation paradigms
 
-This repo accompanies the paper LIMIT: Less is more for instruction tuning across evaluation paradigms. 
+This repo accompanies the paper [LIMIT: Less is more for instruction tuning across evaluation paradigms.](https://arxiv.org/pdf/2311.13133.pdf) 
 
 We finetuned [MPT-7B](https://huggingface.co/mosaicml/mpt-7b) and [MPT-30B](https://huggingface.co/mosaicml/mpt-7b) models on several datasets using [MosaicML's LLM foundry](https://github.com/mosaicml/llm-foundry). 
 
